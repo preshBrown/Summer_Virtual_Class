@@ -4,11 +4,144 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Software Developer</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet" />
+
+    <link rel="stylesheet" href="./index.css" />
 </head>
 
 <body>
-<h1>Welcom!!!!!!!!!!!</h1>
+        <!-- ================= HEADER ================= -->
+    <header id="header-con">
+
+        <div class="logo">
+            <a href="./index.html">&lt;/&gt;</a>
+        </div>
+
+        <nav>
+            <ul class="items">
+                <li class="item">
+                    <a href="#home">Home</a>
+                </li>
+
+                <li class="item">
+                    <a href="#about">About</a>
+                </li>
+
+                <li class="item">
+                    <a href="#skills">Skills</a>
+                </li>
+
+                <li class="item">
+                    <a href="#projects">Projects</a>
+                </li>
+
+                <li class="item">
+                    <a href="#contact">Contact</a>
+                </li>
+            </ul>
+        </nav>
+
+        <button class="menu-btn" aria-label="Open navigation">
+            ☰
+        </button>
+
+    </header>
+
+    <!-- ============= CONTACT ========= -->
+
+    <section id="contact" class="section contact-section">
+
+        <div class="contact-intro reveal">
+            <p>05 - CONTACT</p>
+
+            <h2>
+                Have an idea?
+                <br />
+                <span> Let's build it</span>
+            </h2>
+        </div>
+
+
+
+        <div id="form--container" class="reveal">
+
+            <form class="message-form">
+                <div>
+                    <label for="">
+                        First Name
+                    </label>
+
+                    <input type="text" id="firsName" name="firsName" placeholder="Mike" required>
+                </div>
+
+
+                <div>
+                    <label for="lastName">
+                        Last Name
+                    </label>
+
+                    <input type="text" id="lastName" name="lastName" placeholder="james" required>
+                </div>
+
+                <div>
+                    <label for="email">
+                        Last Name
+                    </label>
+
+                    <input type="email" id="email" name="email" placeholder="mike@email.com" required>
+                </div>
+
+                <div>
+                    <label for="message">
+                        Message
+                    </label>
+
+                   <textarea name="" id="message" name="mesage" placeholder="Tell me about your project"></textarea>
+                </div>
+
+                
+                <div>
+                    <input type="checkbox" id="terms" required>
+                    <label for="terms">
+                        I agree to the <a href="#"> Terms & Conditions</a>
+                    </label> 
+                </div>
+
+                <button type="submit">
+                    Send Message
+                </button>
+
+
+            </form>
+
+        </div>
+    </section>
+
+
+    <!-- ================= FOOTER ================= -->
+    <footer>
+
+        <div class="footer-logo">
+            &lt;/&gt;
+        </div>
+
+        <p>
+            Designed & Built with curiosity.
+        </p>
+
+        <p>
+            © 2026 Dev_Precious. All rights reserved.
+        </p>
+
+    </footer>
+
+
+
 </body>
 
 </html>
